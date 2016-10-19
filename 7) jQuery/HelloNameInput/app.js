@@ -1,1 +1,6 @@
-var name = prompt("Whats your name?")
+$(function () {
+    $( "#prompt" ).click(function() {
+        var name = $(".name").val();                
+        $( ".greeting" ).text("Hello " + name);
+    });
+});

@@ -1,1 +1,5 @@
-var name = prompt("Whats your name?")
+var name = prompt("What's your name?")
+$(function () {
+    $(".name").text("Hello " + name);    
+});
+
